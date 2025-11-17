@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid } from "@react-three/drei";
 import Card from "../components/Card";
-import { Globe } from "../components/globe";
+import { Globe } from "../components/Globe";
 import CopyEmailButton from "../components/CopyEmailButton";
 import { FrameWords } from "../components/FrameWords";
 
