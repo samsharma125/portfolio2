@@ -6,7 +6,7 @@ function Navigation() {
     <ul className='nav-ul flex flex-col sm:flex-row'>
       <li className='nav-li'><a className="nav-link" href="#home">HOME</a></li>
       <li className='nav-li'><a className="nav-link" href="#aboutme">ABOUT</a></li>
-      <li className='nav-li'><a className="nav-link" href="#work">WORK</a></li>
+      <li className='nav-li'><a className="nav-link" href="#project">WORK</a></li>
       <li className='nav-li'><a className="nav-link" href="#contacts">CONTACT</a></li>
     </ul>
   );
