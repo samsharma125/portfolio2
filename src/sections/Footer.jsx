@@ -11,23 +11,27 @@ const Footer = () => {
         <a href="#" className="hover:text-white transition">Privacy Policy</a>
       </div>
 
-      <div className="flex gap-3">
-        {mySocials?.map((social, index) => (
-          <a
-            href={social.href}
-            key={index}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:opacity-80 transition"
-          >
-            <img
-              src={social.icon}
-              alt={social.name}
-              className="w-5 h-5 object-contain"
-            />
-          </a>
-        ))}
-      </div>
+
+    <div className="flex items-center gap-3">
+  {mySocials?.map((social, index) => (
+    <a
+      href={social.href}
+      key={index}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:opacity-80 transition"
+    >
+      <img
+        src={social.icon}
+        alt={social.name}
+        className="w-5 h-5 object-contain"
+      />
+    </a>
+  ))}
+
+  {/* LinkedIn ID */}
+</div>
+
 
       <p className="text-xs sm:text-sm text-neutral-500">
         © 2025 Ali. All rights reserved.

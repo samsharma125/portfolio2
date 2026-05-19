@@ -224,21 +224,21 @@ export const myProjects = [
 ];
 
 export const mySocials = [
-  {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
-  },
+  // {
+  //   name: "WhatsApp",
+  //   href: "",
+  //   icon: "/assets/socials/whatsApp.svg",
+  // },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/satyam-s-a675b2282/",
     icon: "/assets/socials/linkedIn.svg",
   },
-  {
-    name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
-    icon: "/assets/socials/instagram.svg",
-  },
+  // {
+  //   name: "Instagram",
+  //   href: "https://www.instagram.com/ali.sanatidev/reels/",
+  //   icon: "/assets/socials/instagram.svg",
+  // },
 ];
 
 export const experiences = [
